@@ -27,7 +27,10 @@ body{
 }
 .h1 h4{
     display:flex;
-    justify-content:center;}
+    justify-content:center;
+    color: transparent;
+    background:  linear-gradient(to right,rgb(206, 6, 6),rgba(232, 87, 29, 0.655),rgba(36, 36, 209, 0.66), rgb(12, 12, 226));
+    -webkit-background-clip: text;}
 .h{font-family: 'Cinzel', serif;
     
     color: #e2e1f0;
@@ -110,7 +113,7 @@ body{
     background-color:rgb(2, 8, 37);
     transition:transform 0.65s cubic-bezier(0.05,0.2,0.1,1);
     box-shadow:0.65s cubic-bezier(0.05,0.2,0.1,1);
-
+    margin: 10px 0;
 }
 .card:hover{
     box-shadow: 0 2px 70px 0 rgb(253 71 102 /5%);
@@ -141,7 +144,7 @@ body{
     
     display:flex;
     flex-direction: row;
-    margin: 4vh 0;
+    margin: 10px 0;
    
     flex-wrap: wrap;
     justify-content: space-around;
@@ -154,10 +157,11 @@ body{
     
     display:flex;
     flex-direction: row;
-    padding-top: 6vh;
-    margin-bottom: 6vh;
+    
+    
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 10px 0;
     
 }
 .card-title{
