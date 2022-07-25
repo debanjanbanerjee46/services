@@ -17,7 +17,7 @@ body{
     height: 100vh;;
     transition:transform 0.60s ease-in;
     position:fixed;
-    
+    padding:0;
     left:0px;
     min-width:147px;
     top:0px;
